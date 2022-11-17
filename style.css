@@ -1,0 +1,127 @@
+@font-face {
+    font-family: odin-font;
+    src: url(fonts/Norse-Bold.otf);
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+.left{
+    background-image: url("./images/jeremy-thomas-4dpAqfTbvKA-unsplash.jpg");
+    width: 35vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display:flex ;
+    flex-direction: column;
+    font-family: odin-font, sans-serif;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    width: 65vw;
+}
+.para{
+    height: 30vh;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 5%;
+    align-items: flex-end;
+    box-shadow: 2px 5px #E5E7EB;
+}
+.form{
+    height: 50vh;
+    background-color: white;
+    box-shadow: 2px 5px #E5E7EB;
+    align-items: center;
+    
+}
+.form-div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.main-form{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    margin-left: 50px;
+    justify-content: space-between;
+}
+input{
+    width: 200px;
+    border-color: rgb(156, 124, 192);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+input:invalid{
+    border: 2px solid red;
+}
+label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(127, 54, 187);
+}
+.bottom{
+    height: 30vh;
+    background-color: #fafafa;
+    
+}
+.btn{
+    margin-top: 35px ;
+    margin-left: 50px;
+    width: 150px;
+    height: 40px;
+    background-color: rgb(133, 98, 167);
+    color: white;
+    font-size: medium;
+    font-style: italic;
+    border-radius: 8px;
+    border: 1px solid rgb(133, 98, 167);
+    box-shadow: 2px 5px #E5E7EB;
+}
+.bottomtext{
+    margin-left: 50px;
+    margin-top: 25px;
+}
+.login{
+    
+    text-decoration: none;
+   font-weight: bold;
+}
+a{
+    color: white;
+}
+.pfooter{
+    font-size: 12px;
+    
+}
+.forimage{
+    height: 40vh;
+    display: flex;
+    align-items: flex-end;
+}
+.forfooter{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 60vh;
+    width: 35vh;
+}
+.semi-transparent{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    background-color:black ;
+    opacity:0.6;
+}
